@@ -1,0 +1,25 @@
+# ninja log v5
+17	162	7759265102449161	CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj	fcf0dcf65f13cffd
+24	154	7759265102385170	CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj	dca4c31e60f5f2a6
+32	85	7759265101691020	CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj	ec84f6eca5ebc932
+73	299	7759262945747882	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	b275a0257721c30e
+19	162	7759265102449161	CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj	c8c3b87adf6dc2a9
+29	132	7759265102165387	CMakeFiles/Beef_Music.dir/Core/Src/syscalls.c.obj	32a45270a26a67d9
+27	100	7759265101851206	CMakeFiles/Beef_Music.dir/Core/Src/sysmem.c.obj	10a5e1fbf230d191
+44	278	7759262945518642	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	37f4e550d8d04102
+34	252	7759262945262742	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	5ec10adb0d03715b
+22	159	7759265102427489	CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj	f63a4c17b4a87e8e
+31	253	7759262945282682	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj	9d133cb0b34e9bb5
+51	281	7759262945568475	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj	66cc26cf00ab5f48
+47	304	7759262945789770	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj	7de85aef9cb7b23e
+62	305	7759262945802446	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	4f7daf0bbfef11e2
+58	296	7759262945698043	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	79b4a829ca03160c
+69	298	7759262945717981	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	f84c65aa5297b271
+66	306	7759262945822376	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	de87330eb3567234
+55	295	7759262945698043	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj	710f3c7c12bcc1f3
+76	294	7759262945678111	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	1df9a7b1d9249868
+41	331	7759262946078236	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj	bc3f9cb8b64aaf7a
+38	421	7759262946975205	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	df1879addd5cd68f
+28	88	7759342520109075	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj	af49d29c911febdb
+25	153	7759341919318998	CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj	6f89f5659db65250
+88	192	7759342520971705	Beef_Music.elf	bd8e8cb6e0f83ae5
