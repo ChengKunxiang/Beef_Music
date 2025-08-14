@@ -20,8 +20,6 @@
 76	294	7759262945678111	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	1df9a7b1d9249868
 41	331	7759262946078236	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj	bc3f9cb8b64aaf7a
 38	421	7759262946975205	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	df1879addd5cd68f
-28	88	7759342520109075	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj	af49d29c911febdb
-25	153	7759341919318998	CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj	6f89f5659db65250
-88	192	7759342520971705	Beef_Music.elf	bd8e8cb6e0f83ae5
 1	434	7768572431895483	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj	af49d29c911febdb
+25	153	7759341919318998	CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj	6f89f5659db65250
 434	737	7768572434754257	Beef_Music.elf	bd8e8cb6e0f83ae5
