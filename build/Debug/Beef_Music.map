@@ -1690,6 +1690,7 @@ Discarded input sections
  .data          0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
  .bss           0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
  .rodata.Test   0x00000000       0xb0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
+ .rodata.Mario  0x00000000      0x250 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
  .debug_macro   0x00000000      0xacc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
  .debug_macro   0x00000000       0x22 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
  .debug_macro   0x00000000       0x8e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
@@ -3033,7 +3034,7 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 .iplt           0x08002950        0x0
  .iplt          0x08002950        0x0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08002950      0x514
+.rodata         0x08002950      0x614
                 0x08002950                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
@@ -3049,52 +3050,52 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08002974       0x78 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
                 0x08002974                Stars_song
  .rodata.OrdinaryRoad_song
-                0x080029ec      0x478 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
+                0x080029ec      0x578 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
                 0x080029ec                OrdinaryRoad_song
-                0x08002e64                        . = ALIGN (0x4)
+                0x08002f64                        . = ALIGN (0x4)
 
-.ARM.extab      0x08002e64        0x0
-                0x08002e64                        . = ALIGN (0x4)
+.ARM.extab      0x08002f64        0x0
+                0x08002f64                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08002e64                        . = ALIGN (0x4)
+                0x08002f64                        . = ALIGN (0x4)
 
-.ARM            0x08002e64        0x0
-                0x08002e64                        . = ALIGN (0x4)
-                0x08002e64                        __exidx_start = .
+.ARM            0x08002f64        0x0
+                0x08002f64                        . = ALIGN (0x4)
+                0x08002f64                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08002e64                        __exidx_end = .
-                0x08002e64                        . = ALIGN (0x4)
+                0x08002f64                        __exidx_end = .
+                0x08002f64                        . = ALIGN (0x4)
 
-.preinit_array  0x08002e64        0x0
-                0x08002e64                        . = ALIGN (0x4)
-                0x08002e64                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002f64        0x0
+                0x08002f64                        . = ALIGN (0x4)
+                0x08002f64                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002e64                        PROVIDE (__preinit_array_end = .)
-                0x08002e64                        . = ALIGN (0x4)
+                0x08002f64                        PROVIDE (__preinit_array_end = .)
+                0x08002f64                        . = ALIGN (0x4)
 
-.init_array     0x08002e64        0x4
-                0x08002e64                        . = ALIGN (0x4)
-                0x08002e64                        PROVIDE (__init_array_start = .)
+.init_array     0x08002f64        0x4
+                0x08002f64                        . = ALIGN (0x4)
+                0x08002f64                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08002e64        0x4 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08002e68                        PROVIDE (__init_array_end = .)
-                0x08002e68                        . = ALIGN (0x4)
+ .init_array    0x08002f64        0x4 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002f68                        PROVIDE (__init_array_end = .)
+                0x08002f68                        . = ALIGN (0x4)
 
-.fini_array     0x08002e68        0x4
-                0x08002e68                        . = ALIGN (0x4)
+.fini_array     0x08002f68        0x4
+                0x08002f68                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08002e68        0x4 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08002f68        0x4 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08002e6c                        . = ALIGN (0x4)
-                0x08002e6c                        _sidata = LOADADDR (.data)
+                0x08002f6c                        . = ALIGN (0x4)
+                0x08002f6c                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08002e6c        0x0
- .rel.iplt      0x08002e6c        0x0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002f6c        0x0
+ .rel.iplt      0x08002f6c        0x0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000        0xc load address 0x08002e6c
+.data           0x20000000        0xc load address 0x08002f6c
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3113,10 +3114,10 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x2000000c                        . = ALIGN (0x4)
  *fill*         0x20000009        0x3 
 
-.igot.plt       0x2000000c        0x0 load address 0x08002e78
+.igot.plt       0x2000000c        0x0 load address 0x08002f78
  .igot.plt      0x2000000c        0x0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.tdata          0x2000000c        0x0 load address 0x08002e78
+.tdata          0x2000000c        0x0 load address 0x08002f78
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        _edata = .
@@ -3133,7 +3134,7 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x2000000c        0x0 load address 0x08002e78
+.tbss           0x2000000c        0x0 load address 0x08002f78
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -3150,7 +3151,7 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x2000000c       0xbc load address 0x08002e78
+.bss            0x2000000c       0xbc load address 0x08002f78
  *(.bss)
  .bss           0x2000000c       0x1c E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
@@ -3177,7 +3178,7 @@ LOAD E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x200000c8      0x600 load address 0x08002e78
+                0x200000c8      0x600 load address 0x08002f78
                 0x200000c8                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x200000c8                        PROVIDE (_end = .)
@@ -3257,7 +3258,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .comment       0x00000043       0x44 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_info     0x00000000     0x8521
+.debug_info     0x00000000     0x8548
  .debug_info    0x00000000      0x222 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_info    0x00000222     0x2959 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_info    0x00002b7b     0x149b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
@@ -3265,17 +3266,17 @@ LOAD linker stubs
  .debug_info    0x0000471a      0x7d5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_info    0x00004eef      0x5ab cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_info    0x0000549a      0xa87 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00005f21      0x158 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
- .debug_info    0x00006079      0xaee CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
- .debug_info    0x00006b67      0x2d3 CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
- .debug_info    0x00006e3a      0xc3a CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
- .debug_info    0x00007a74      0x6a1 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00008115      0x1f1 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00008306       0x30 CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
- .debug_info    0x00008336       0xe0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_info    0x00008416      0x10b E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_info    0x00005f21      0x17f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
+ .debug_info    0x000060a0      0xaee CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
+ .debug_info    0x00006b8e      0x2d3 CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
+ .debug_info    0x00006e61      0xc3a CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
+ .debug_info    0x00007a9b      0x6a1 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000813c      0x1f1 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x0000832d       0x30 CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
+ .debug_info    0x0000835d       0xe0 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_info    0x0000843d      0x10b E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_abbrev   0x00000000     0x1ac1
+.debug_abbrev   0x00000000     0x1ad4
  .debug_abbrev  0x00000000      0x13f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_abbrev  0x0000013f      0x277 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_abbrev  0x000003b6      0x282 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
@@ -3283,15 +3284,15 @@ LOAD linker stubs
  .debug_abbrev  0x00000839      0x2b3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_abbrev  0x00000aec      0x1ca cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_abbrev  0x00000cb6      0x2f8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000fae       0x9e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
- .debug_abbrev  0x0000104c      0x2fc CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00001348      0x13f CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x00001487      0x243 CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x000016ca      0x191 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x0000185b       0xdb CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00001936       0x24 CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
- .debug_abbrev  0x0000195a       0x9e E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_abbrev  0x000019f8       0xc9 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00000fae       0xb1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
+ .debug_abbrev  0x0000105f      0x2fc CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000135b      0x13f CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x0000149a      0x243 CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x000016dd      0x191 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x0000186e       0xdb CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00001949       0x24 CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
+ .debug_abbrev  0x0000196d       0x9e E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00001a0b       0xc9 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
 .debug_aranges  0x00000000      0x9e8
  .debug_aranges
@@ -3430,24 +3431,24 @@ LOAD linker stubs
  .debug_line    0x0000a691      0x17e E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .debug_line    0x0000a80f      0x165 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_str      0x00000000    0x84a12
- .debug_str     0x00000000    0x84a12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+.debug_str      0x00000000    0x84a18
+ .debug_str     0x00000000    0x84a18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
                               0x81b3a (size before relaxing)
- .debug_str     0x00084a12    0x82f6b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_str     0x00084a12    0x82777 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_str     0x00084a12    0x8226d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_str     0x00084a12    0x81f69 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_str     0x00084a12    0x81ec0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_str     0x00084a12    0x821b9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_str     0x00084a12     0x3edf cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
- .debug_str     0x00084a12    0x82608 CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
- .debug_str     0x00084a12    0x81da9 CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
- .debug_str     0x00084a12    0x82778 CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
- .debug_str     0x00084a12    0x82237 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_str     0x00084a12    0x81d31 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_str     0x00084a12       0x7a CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
- .debug_str     0x00084a12      0x209 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_str     0x00084a12      0x26a E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_str     0x00084a18    0x82f6b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x00084a18    0x82777 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x00084a18    0x8226d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00084a18    0x81f69 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00084a18    0x81ec0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00084a18    0x821b9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00084a18     0x3ee5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/Songs/songs.c.obj
+ .debug_str     0x00084a18    0x82608 CMakeFiles/Beef_Music.dir/Core/Src/main.c.obj
+ .debug_str     0x00084a18    0x81da9 CMakeFiles/Beef_Music.dir/Core/Src/gpio.c.obj
+ .debug_str     0x00084a18    0x82778 CMakeFiles/Beef_Music.dir/Core/Src/tim.c.obj
+ .debug_str     0x00084a18    0x82237 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00084a18    0x81d31 CMakeFiles/Beef_Music.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00084a18       0x7a CMakeFiles/Beef_Music.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x00084a18      0x209 E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_str     0x00084a18      0x26a E:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
 .debug_frame    0x00000000     0x2700
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj

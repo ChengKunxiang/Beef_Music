@@ -19,10 +19,10 @@ const Note Test[] = {
 
 const Note OrdinaryRoad_song[] = {
     // ===== 前奏部分 =====
-    // {NOTE_6_DOWN, 1}, {NOTE_6_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_1_DOWN, 1}, {NOTE_4_DOWN, 1}, {NOTE_4, 1}, {NOTE_1, 1},
-    // {NOTE_1_DOWN, 1}, {NOTE_5_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_7_DOWN, 1}, {NOTE_1, 1}, {NOTE_2, 1}, {NOTE_5_DOWN, 1},
-    // {NOTE_6_DOWN, 1}, {NOTE_6_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_1_DOWN, 1}, {NOTE_4_DOWN, 1}, {NOTE_4, 1}, {NOTE_1, 1},
-    // {NOTE_1_DOWN, 1}, {NOTE_5_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_7_DOWN, 1}, {NOTE_1, 1}, {NOTE_2, 1}, {NOTE_5_DOWN, 1},
+    {NOTE_6_DOWN, 1}, {NOTE_6_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_1_DOWN, 1}, {NOTE_4_DOWN, 1}, {NOTE_4, 1}, {NOTE_1, 1},
+    {NOTE_1_DOWN, 1}, {NOTE_5_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_7_DOWN, 1}, {NOTE_1, 1}, {NOTE_2, 1}, {NOTE_5_DOWN, 1},
+    {NOTE_6_DOWN, 1}, {NOTE_6_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_1_DOWN, 1}, {NOTE_4_DOWN, 1}, {NOTE_4, 1}, {NOTE_1, 1},
+    {NOTE_1_DOWN, 1}, {NOTE_5_DOWN, 1}, {NOTE_3, 1}, {NOTE_1, 1}, {NOTE_7_DOWN, 1}, {NOTE_1, 1}, {NOTE_2, 1}, {NOTE_5_DOWN, 1},
     
     // ===== 主歌部分 =====
     // 0 3 3 6 6 6 1 2 3 3 | 3 - - 0 |
@@ -86,4 +86,17 @@ const Note OrdinaryRoad_song[] = {
 
     // 结束标志
     {NOTE_STOP, 4}
+};
+
+const Note Mario[] = {
+    {NOTE_3, 0.5}, {NOTE_3, 0.5}, {NOTE_3, 0.5}, {NOTE_1, 0.25}, {NOTE_3, 0.25}, {NOTE_5, 0.5}, {NOTE_5_DOWN, 0.5}, 
+    {NOTE_1, 0.5}, {NOTE_5_DOWN, 0.5}, {NOTE_3_DOWN, 0.5}, {NOTE_6_DOWN, 0.5}, 
+    {NOTE_7_DOWN, 0.5}, {NOTE_7_DOWN, 0.5}, {NOTE_6_DOWN, 0.5}, {NOTE_5_DOWN, 0.5}, {NOTE_3, 0.5}, {NOTE_5, 0.25}, {NOTE_6, 0.25}, {NOTE_4, 0.25}, {NOTE_5, 0.25}, 
+    {NOTE_3, 0.25}, {NOTE_1, 0.25}, {NOTE_2, 0.25}, {NOTE_7_DOWN, 0.5}, {NOTE_1, 0.5}, {NOTE_5_DOWN, 0.25}, 
+    {NOTE_3_DOWN, 0.25}, {NOTE_6_DOWN, 0.5}, {NOTE_7_DOWN, 0.25}, {NOTE_7_DOWN, 0.25}, {NOTE_6_DOWN, 0.5}, {NOTE_5_DOWN, 0.25}, {NOTE_3, 0.5}, 
+    {NOTE_5, 0.5}, {NOTE_6, 0.5}, {NOTE_4, 0.5}, {NOTE_5, 0.5}, {NOTE_3, 0.5}, {NOTE_2, 0.25}, {NOTE_1, 0.25}, {NOTE_7_DOWN, 1.0}, 
+    {NOTE_5, 0.5}, {NOTE_4, 0.25}, {NOTE_4, 0.25}, {NOTE_3, 0.5}, {NOTE_3, 0.5}, {NOTE_5_DOWN, 0.5}, {NOTE_6_DOWN, 0.5}, {NOTE_1, 0.5}, 
+    {NOTE_6_DOWN, 0.25}, {NOTE_1, 0.25}, {NOTE_2, 0.5}, {NOTE_5, 0.25}, {NOTE_4, 0.25}, {NOTE_4, 0.5}, {NOTE_3, 0.5}, {NOTE_3, 0.5}, {NOTE_1_UP, 0.5}, 
+    {NOTE_1_UP, 0.5}, {NOTE_1_UP, 0.5}, {NOTE_5, 0.25}, {NOTE_4, 0.25}, {NOTE_4, 0.25}, {NOTE_3, 0.5}, {NOTE_3, 0.5}, 
+    {NOTE_5_DOWN, 0.25}, {NOTE_6_DOWN, 0.25}, {NOTE_1, 0.5}, {NOTE_6_DOWN, 0.25}, {NOTE_1, 0.25}, {NOTE_2, 0.5}, {NOTE_3, 0.5}, {NOTE_2, 0.5}, {NOTE_1, 0.5} 
 };

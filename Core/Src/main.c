@@ -158,7 +158,22 @@ void play_song() {
     break;
 
     case 3:
-
+      is_start = 1;  // 切换播放状态
+      if (Mario[index].tone != 1000) {
+        playTone(Mario[index].tone);  // 播放音符
+        Delay_Ms(Mario[index].duration * BEAT_DURATION);  // 延时
+        playTone(NOTE_REST);  // 停止音符
+        Delay_Ms(BEAT_DURATION * 0.2);  // 延时
+      } else {
+          playTone(NOTE_REST);  // 播放休止符
+          Delay_Ms(BEAT_DURATION);  // 延时
+      }
+      index++;  // 移动到下一个音符
+      if (Mario[index].tone == 0) {  // 如果到达最后一个音符
+          is_start = 0;  // 停止播放
+          index = 0;  // 重置索引
+          song_index = 0;  // 重置歌曲索引
+      }
       break;
     case 4:
 

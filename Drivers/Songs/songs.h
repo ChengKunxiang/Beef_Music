@@ -62,4 +62,5 @@ typedef struct
 extern const Note Test[];
 extern const Note Stars_song[];
 extern const Note OrdinaryRoad_song[];
+extern const Note Mario[];
 #endif
